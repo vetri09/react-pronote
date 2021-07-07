@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(43, 137, 226);
+}
+.container{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.input, .output{
+    color: white;
+    width: 50%;
+}
+.input-text{
+    color: white;
+    border: 4px rgb(71, 71, 71) solid;
+    background-color: rgb(43, 137, 226);
+    padding: 15px;
+    outline: none;
+    width: 75%;
+    height: 400px;
+}
+.output-text{
+    background-color: rgb(71, 71, 71);
+    box-shadow: 5px 5px 30px black;
+    width: 75%;
+    height: 450px;
+}
